@@ -13,5 +13,5 @@ require (
 	google.golang.org/appengine v1.6.6 // indirect
 	google.golang.org/protobuf v1.24.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
-	gopkg.in/ini.v1 v1.63.2
+	gopkg.in/ini.v1 v1.67.0
 )
