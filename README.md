@@ -1,5 +1,5 @@
 # ghtrack - simple GitHub issue-based time tracker
-[![Go Check](https://github.com/pomidoroshev/ghtrack/workflows/Go%20Check/badge.svg?branch=master)](https://github.com/pomidoroshev/ghtrack/actions)
+[![Go Check](https://github.com/ddoroshev/ghtrack/workflows/Go%20Check/badge.svg?branch=master)](https://github.com/ddoroshev/ghtrack/actions)
 
 `ghtrack` scans repository issues, extracts timespans from comments and generates text report.
 
@@ -10,7 +10,7 @@ Add a timespan tag to your issue comment (format: `#t 1h`, `#t 10m`, `#t 5h45m`,
 ![](images/timespans.png)
 
 ```
-$ ./ghtrack -m 1 -s closed pomidoroshev ghtrack
+$ ./ghtrack -m 1 -s closed ddoroshev ghtrack
 <...>
 Add some feature - 1h45m0s
 Total: 2h43m0s
@@ -18,7 +18,7 @@ Total: 2h43m0s
 
 ## Install
 
-Download [latest release](https://github.com/pomidoroshev/ghtrack/releases/latest) for your OS and unpack it with `tar xzf` (Linux, MacOS, FreeBSD) or `zip` (Windows).
+Download [latest release](https://github.com/ddoroshev/ghtrack/releases/latest) for your OS and unpack it with `tar xzf` (Linux, MacOS, FreeBSD) or `zip` (Windows).
 
 ## Configuration
 
@@ -31,7 +31,7 @@ Download [latest release](https://github.com/pomidoroshev/ghtrack/releases/lates
 The first time you run `ghtrack`, you will be asked to enter this token:
 
 ```
-$ ./ghtrack -m 1 -s closed pomidoroshev ghtrack
+$ ./ghtrack -m 1 -s closed ddoroshev ghtrack
 Your GitHub token:
 ```
 
@@ -53,7 +53,7 @@ Usage: ./ghtrack [OPTIONS] owner repository
 ### Collect closed issues of 1st milestone
 
 ```
-$ ./ghtrack -m 1 -s closed pomidoroshev ghtrack
+$ ./ghtrack -m 1 -s closed ddoroshev ghtrack
 Fix bug - 58m0s
 Add some feature - 1h45m0s
 Total: 2h43m0s
@@ -62,7 +62,7 @@ Total: 2h43m0s
 ### Collect all issues without milestone
 
 ```
-$ ./ghtrack -m none pomidoroshev ghtrack
+$ ./ghtrack -m none ddoroshev ghtrack
 Task without milestone - 15m0s
 Add readme - 0s
 Total: 15m0s
