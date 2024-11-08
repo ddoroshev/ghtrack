@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/stretchr/testify v1.9.0
-	golang.org/x/oauth2 v0.23.0
+	golang.org/x/oauth2 v0.24.0
 	gopkg.in/ini.v1 v1.67.0
 )
 
